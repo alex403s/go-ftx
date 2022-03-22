@@ -1,4 +1,4 @@
-module github.com/go-numb/go-ftx
+module github.com/alex403s/go-ftx
 
 go 1.14
 
@@ -11,3 +11,5 @@ require (
 	github.com/stretchr/testify v1.3.0
 	github.com/valyala/fasthttp v1.21.0
 )
+
+replace github.com/go-numb/go-ftx => ./
